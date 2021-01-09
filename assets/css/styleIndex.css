@@ -1,0 +1,226 @@
+/* START BODY */
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #080808;
+  font-family: 'Roboto', sans-serif;
+}
+/* END BODY */
+
+
+
+/* START FRAMEWORK */
+#blue_with_hover{
+	font-family: 'Roboto', sans-serif;
+	color: #53a9f1;
+}
+#blue_with_hover:hover{
+	font-family: 'Roboto', sans-serif;
+	color: #127efe;
+}
+#clear{
+	clear: both;
+}
+/* END FRAMEWORK */
+
+
+
+/* START CONTAINER */
+#container{
+  max-width: 1200px;
+  padding: 15px;
+  margin: 0 auto;
+}
+/* END CONTAINER */
+
+
+
+/* START NAVBAR */
+nav{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 90px;
+	width: 100%;
+}
+nav #navbar_img{
+	width: auto;
+	height: 70px;
+	display: block;
+	margin: 10px auto;
+}
+@media (max-width: 768px){
+	nav{
+		height: 65px;
+	}
+	nav #navbar_img{
+		height: 45px;
+		margin: 10px auto;
+	}
+}
+/* END NAVBAR */
+
+
+
+/* START LEFT CONTENT */
+#left_content{
+	position: relative;
+	margin-top: 150px;
+	width: 50%;
+	float: left;
+}
+#left_content #left_content_title{
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: -0.02em;
+    font-size: 30px;
+    line-height: 1.4;
+    background: linear-gradient(to left, #53a9f1, #185a9d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#left_content #left_content_createdBy{
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	margin-top: 40px;
+}
+#left_content #left_content_features{
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	margin-top: 10px;
+}
+#left_content #left_content_register,#left_content_login{
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	margin-top: 40px;
+	cursor: pointer;
+}
+@media (max-width: 992px){
+	#left_content{
+		width: 100%;
+		text-align: center!important;
+	}
+	#left_content #left_content_title{
+		max-width: 600px;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+/* END LEFT CONTENT */
+
+
+
+/* START RIGHT CONTENT */
+#right_content{
+	position: relative;
+	margin-top: 150px;
+	width: 50%;
+	float: left;
+}
+#right_content #form_container{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+#right_content #logIn_title{
+	color: #53a9f1;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: left;
+    max-width: 360px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#right_content #email,#pass,#fn,#usr,#login_email,#login_pass{
+	background-color: #000 !important;
+	border: 2px solid #127efe;
+	border-radius: 4px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 360px;
+    width: 100%;
+    height: 48px;
+    padding: 11px 15px;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 10px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+#right_content #login,#register{
+	background-color: #000 !important;
+	border: 2px solid #127efe;
+	border-radius: 4px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 360px;
+    width: 100%;
+    height: 48px;
+    padding: 11px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #53a9f1;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
+    box-sizing: border-box;
+    transition: .3s;
+}
+#right_content #login:hover{
+	background-color: #127efe !important;
+	color: #fff;
+}
+#right_content #register:hover{
+	background-color: #127efe !important;
+	color: #fff;
+}
+@media (max-width: 992px){
+	#left_content {
+	    margin-top: 50px;
+	}
+	#right_content{
+		width: 100%;
+		display: block;
+		margin-top: 0px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center!important;
+	}
+	.register{
+		margin-top: 0!important;
+	}
+}
+/* END RIGHT CONTENT */
+
+
+
+/* START FOOTER */
+#footer{
+	color: #1d232b;
+	font-size: 12px;
+	text-align: center;
+	position: absolute;
+    bottom: 0;
+    margin-left: calc(50% - 67px);
+}
+#footer:hover{
+	color: #127efe;
+}
+@media (max-width: 992px){
+	#footer{
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+/* END FOOTER */

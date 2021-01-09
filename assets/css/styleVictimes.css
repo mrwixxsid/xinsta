@@ -1,0 +1,30 @@
+#dashboard_content{
+	position: relative;
+	margin: 180px auto;
+}
+table{
+	border-collapse: collapse;
+	width: 100%;
+	font-family: Roboto;
+	font-size: 22px;
+	color: #fff;
+	text-align: left;
+}
+th{
+	background-color: #127efe;
+	color: #fff;
+	padding: 10px;
+}
+tr:nth-child(even){
+	background-color: transparent;
+}
+td{
+	padding: 10px;
+}
+#noData{
+	font-family: Roboto;
+	font-size: 26px;
+	color: #fff;
+	text-align: center;
+	margin-top: -100px;
+}
